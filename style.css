@@ -27,6 +27,15 @@ h1 {
     font-size: 60px;
 }
 
+h1, h2 {
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+h1:hover, h2:hover {
+    color: #f00;
+}
+
 ul {
     padding: 10px;
     background: rgba(0, 0, 0, 0.5);
@@ -41,6 +50,14 @@ li {
 a {
     color: #fff;
     text-decoration: none;
+    margin: 0 10px;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+a:hover {
+    font-size: x-large;
+    color: #f00;
 }
 
 article {
@@ -54,6 +71,13 @@ button {
     font-size: large;
     padding:0px 20px;
     font-family: 'Lobster Two', cursive;
+    cursor: pointer;
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+button:hover {
+    color: dodgerblue;
 }
 
 @media screen and (max-width: 500px) {
