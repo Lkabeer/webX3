@@ -1,0 +1,78 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    background: url("assets/bg.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    font-family: 'Lobster Two', cursive;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+header {
+    text-align: center;
+}
+
+img {
+    margin-top: 50px;
+}
+
+h1 {
+    font-weight: normal;
+    font-size: 60px;
+}
+
+ul {
+    padding: 10px;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+li {
+    display: inline;
+    padding: 0px 10px;
+    font-size: large;
+}
+
+a {
+    color: #fff;
+}
+
+article {
+    max-width: 500px;
+    padding: 20px;
+    margin: 0 auto;
+    font-size: large;
+}
+
+button {
+    font-size: large;
+    padding:0px 20px;
+    font-family: 'Lobster Two', cursive;
+}
+
+@media screen and (max-width: 500px) {
+    h1 {
+        margin: 20px auto 0px auto;
+    }
+
+    ul {
+        background: none;
+    }
+
+    li {
+        background: rgba(0, 0, 0, 0.5); 
+        display: block;
+        font-size: x-large;
+        padding: 5px 0px;
+        margin: 5px;
+    }
+    /* li:nth-child(odd) {
+    }
+    li:nth-child(even) {
+    } */
+}
