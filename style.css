@@ -80,6 +80,20 @@ button:hover {
     color: dodgerblue;
 }
 
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: url('./assets/bg.jpg');
+    background-position: right;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #000;
+    box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+}
+
 @media screen and (max-width: 500px) {
     h1 {
         margin: 20px auto 0px auto;
