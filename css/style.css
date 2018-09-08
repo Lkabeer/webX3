@@ -9,7 +9,7 @@ html, body {
 
 body {
     margin: 0;
-    background-image: url("../assets/bg.jpg");
+    background-image: url("../assets/bgOpti.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -81,7 +81,7 @@ button:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background: url('../assets/bg.jpg');
+    background: url('../assets/bgOpti.jpg');
     background-size: cover;
     background-position: right;
 }
