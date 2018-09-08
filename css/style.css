@@ -9,7 +9,7 @@ html, body {
 
 body {
     margin: 0;
-    background-image: url("assets/bg.jpg");
+    background-image: url("../assets/bg.jpg");
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -35,12 +35,12 @@ h1:hover, h2:hover {
     color: #f00;
 }
 
-ul {
+nav ul {
     padding: 10px;
-    background: rgba(0, 0, 0, 0.5);
+    background-color: rgba(0, 0, 0, 0.5);
 }
 
-li {
+nav li {
     display: inline;
     padding: 0px 10px;
     font-size: large;
@@ -72,7 +72,7 @@ button {
 }
 
 button:hover {
-    color: dodgerblue;
+    color: #f00;
 }
 
 /* X-Team Scrollbar ツ */
@@ -81,7 +81,7 @@ button:hover {
 }
 
 ::-webkit-scrollbar-track {
-    background: url('./assets/bg.jpg');
+    background: url('../assets/bg.jpg');
     background-size: cover;
     background-position: right;
 }
@@ -97,12 +97,12 @@ button:hover {
         margin: 20px auto 0px auto;
     }
 
-    ul {
+    nav ul {
         background: none;
     }
 
-    li {
-        background: rgba(0, 0, 0, 0.5); 
+    nav li {
+        background-color: rgba(0, 0, 0, 0.5); 
         display: block;
         font-size: x-large;
         padding: 5px 0px;
